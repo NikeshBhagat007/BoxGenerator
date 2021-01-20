@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box
+{
+    display: flex;
+    flex-direction: row; /*row is default value*/
+    flex-wrap: wrap;
+    border: solid black;
+    position: absolute;
+    margin: 10px;
+}
+
+.container
+{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+}
+
+.myDiv
+{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    line-height: 50px;  /* set inline same as height to set content in centre*/
+    /* justify-items: center; */
+    /* align-items: center; */
+}
